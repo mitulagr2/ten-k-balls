@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(0.13, 0.13, 0.23);
+  background-color: #20213a;
   color: #e0e5ec;
   display: flex;
   justify-content: center;
@@ -28,11 +28,11 @@ body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: rgb(0.13, 0.13, 0.23);
+  background-color: #20213a;
   color: #eef;
-  border: 2px solid #1ab67d;
+  border: 2px solid #4b4f69;
 }
 #landing button:hover {
-  background-color: #1ab67d;
+  background-color: #4b4f69;
   color: #eef;
 }

@@ -14,7 +14,7 @@
     <script type="module">
       import init, { main } from "./pkg/ten_k_balls.js";
       const landing = document.querySelector("#landing");
-      const startBtn = landing.querySelector("btn");
+      const startBtn = landing.querySelector("button");
       startBtn.addEventListener("click", () => {
         landing.remove();
         init().then(() => {
