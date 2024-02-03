@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>ten-k-balls</title>
+  </head>
+  <body style="margin: 0; overflow: hidden">
+    <div id="landing">
+      <h1>ten-k-balls</h1>
+      <p>This project is made using bevy rapier with wasm-pack.</p>
+      <button>Start Simulation</button>
+    </div>
+    <script type="module">
+      import init, { main } from "./pkg/ten-k-balls.js";
+      const landing = document.querySelector("#landing");
+      const startBtn = landing.querySelector("btn");
+      startBtn.addEventListener("click", () => {
+        landing.remove();
+        init().then(() => {
+          main(window.innerWidth, window.innerHeight);
+        });
+      });
+    </script>
+  </body>
+</html>

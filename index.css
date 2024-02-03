@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(0.13, 0.13, 0.23);
+  color: rgb(0.6, 0.55, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#landing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+#landing h1 {
+  color: rgb(0.29, 0.31, 0.41);
+}
