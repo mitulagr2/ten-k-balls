@@ -1,0 +1,20 @@
+{
+  "name": "ten-k-balls",
+  "description": "A bevy rapier project with wasm-pack",
+  "version": "0.1.0",
+  "license": "MIT/Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitulagr2/"
+  },
+  "files": [
+    "ten_k_balls_bg.wasm",
+    "ten_k_balls.js",
+    "ten_k_balls.d.ts"
+  ],
+  "module": "ten_k_balls.js",
+  "types": "ten_k_balls.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

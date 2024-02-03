@@ -1,10 +1,12 @@
 body {
   background-color: rgb(0.13, 0.13, 0.23);
-  color: rgb(0.6, 0.55, 0.6);
+  color: #e0e5ec;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 100vh;
+  margin: 0;
 }
 
 #landing {
@@ -15,5 +17,22 @@ body {
   align-items: center;
 }
 #landing h1 {
-  color: rgb(0.29, 0.31, 0.41);
+  color: #eef;
+}
+#landing button {
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(0.13, 0.13, 0.23);
+  color: #eef;
+  border: 2px solid #1ab67d;
+}
+#landing button:hover {
+  background-color: #1ab67d;
+  color: #eef;
 }

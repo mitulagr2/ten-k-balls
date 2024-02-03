@@ -40,7 +40,7 @@ pub fn main(window_width: f32, window_height: f32) {
         .add_plugins((
             DefaultPlugins.set(WindowPlugin {
                 primary_window: Some(Window {
-                    title: "Bevy Balls 2D".to_string(),
+                    title: "ten-k-balls".to_string(),
                     resolution: WindowResolution::new(window_width, window_height),
                     resizable: true,
                     ..Default::default()
